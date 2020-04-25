@@ -3,9 +3,16 @@
     src: url(Gotham.otf);
  }
 
-body {
+ body {
+     margin: 0;
+ }
+
+.main-container {
     font-family: myFirstFont;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #fafafa;
 }
 
@@ -15,13 +22,10 @@ body {
 
 .container {
     width: 70%;
-    margin: 0 auto;
-    margin-bottom: 2rem;
-    overflow: hidden;
 }
 
 .user-name {
-    /* background-color: white; */
+    text-align: center;
     font-family: myFirstFont;
     font-size: 3rem;
     line-height: 1.5;
@@ -33,14 +37,13 @@ body {
 
 .about-description, .work-description, .contact-description {
     font-family: monospace;
-    line-height: 1.5;
     font-size: 1.5rem;
-    text-align: left;
+    line-height: 1.5;
 }
 
 .divider {
     width: 30%;
     height: 0;
     border-top: 3px solid black;
-    margin-bottom: 2rem;
+    margin: 2rem;
 }
