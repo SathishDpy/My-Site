@@ -47,3 +47,7 @@
     border-top: 3px solid black;
     margin: 2rem;
 }
+
+a {
+    color: black;
+}
